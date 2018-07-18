@@ -1,0 +1,16 @@
+------------------------------------------------------------------------
+r188 | elkano | 2016-07-20 18:02:27 +0000 (Wed, 20 Jul 2016) | 2 lines
+Changed paths:
+   M /trunk/EBB_Bar.lua
+   M /trunk/ElkBuffBars.lua
+   M /trunk/ElkBuffBars.toc
+
+Bug fixes for 7.0.3
+(not sure about UnitAura's new timeMod return though regarding max. duration)
+------------------------------------------------------------------------
+r187 | elkano | 2015-09-19 14:08:56 +0000 (Sat, 19 Sep 2015) | 1 line
+Changed paths:
+   M /trunk/locales/ElkBuffBars.koKR.lua
+
+updated koKR (thanks to next96)
+------------------------------------------------------------------------

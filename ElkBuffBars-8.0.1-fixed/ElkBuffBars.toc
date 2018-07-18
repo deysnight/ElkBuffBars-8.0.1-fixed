@@ -1,0 +1,64 @@
+﻿## Interface: 80000
+## X-Curse-Packaged-Version: r188
+## X-Curse-Project-Name: Elkano's BuffBars
+## X-Curse-Project-ID: elkbuffbars
+## X-Curse-Repository-ID: wow/elkbuffbars/mainline
+
+## Title: Elkano's BuffBars
+## Notes: EBB adds groups of bars to your screen showing you which (de)buffs currently affect your toon or some other units.
+## Notes-deDE: EBB fügt dem Interface Balkengruppen hinzu, welche die (De)Buffs anzeigen, die derzeit deine Spielfigur oder bestimmte andere Einheiten betreffen.
+## Notes-ruRU: EBB добавляет группы полос на экран, отображающие ваши текущие (де)баффы действующие на вас.
+## Notes-zhCN: EBB 以计时条群组在荧屏上显示你或其他单位的(减)增益状态
+## Notes-zhTW: EBB 以計時條群組在螢幕上顯示你或其他單位的(減)增益狀態
+
+## Author: Elkano
+## Version: 2.5.0-188
+## X-Website: http://www.wowace.com/projects/elkbuffbars/
+## X-Category: Buffs
+
+## X-Revision: 188
+## X-Date: 2016-07-20T18:02:27Z
+
+## OptionalDeps: Ace3, AceGUI-3.0-SharedMediaWidgets, LibDBIcon-1.0, LibDualSpec-1.0, LibGratuity-3.0, LibQTip-1.0, LibSharedMedia-3.0, UTF8
+
+## SavedVariables: ElkBuffBarsDB
+
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\AceAddon-3.0\AceAddon-3.0.lua
+libs\AceLocale-3.0\AceLocale-3.0.lua
+libs\AceBucket-3.0\AceBucket-3.0.lua
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua
+libs\AceConfigDialog-3.0\AceConfigDialog-3.0.lua
+libs\AceConsole-3.0\AceConsole-3.0.lua
+libs\AceConfigCmd-3.0\AceConfigCmd-3.0.lua
+libs\AceDB-3.0\AceDB-3.0.lua
+libs\AceDBOptions-3.0\AceDBOptions-3.0.lua
+libs\AceEvent-3.0\AceEvent-3.0.lua
+libs\AceHook-3.0\AceHook-3.0.lua
+libs\AceTimer-3.0\AceTimer-3.0.lua
+libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+libs\LibDualSpec-1.0\LibDualSpec-1.0.lua
+libs\LibGratuity-3.0\LibGratuity-3.0.lua
+libs\LibQTip-1.0\LibQTip-1.0.lua
+libs\LibSharedMedia-3.0\LibSharedMedia-3.0.lua
+libs\AceGUI-3.0-SharedMediaWidgets\widget.xml
+libs\UTF8\utf8.lua
+#@end-no-lib-strip@
+
+
+locales\ElkBuffBars.enUS.lua
+locales\ElkBuffBars.deDE.lua
+locales\ElkBuffBars.koKR.lua
+locales\ElkBuffBars.ruRU.lua
+locales\ElkBuffBars.zhCN.lua
+locales\ElkBuffBars.zhTW.lua
+
+
+ElkBuffBars.lua
+EBB_Bar.lua
+EBB_BarGroup.lua
